@@ -96,8 +96,8 @@ or [![CKAN][ckan:img]][ckan:url]
 * [Fuel Cells (FUEL)][FUEL] Stack Fuel Cells
 * [Radioisotope Thermoelectric Generators (RTG)][RTG] Radioisotope Thermoelectric  Generators
 * [Kerturn (KAT)][KAT]
-* [Fuel Cells (FUEL)][SENS]
-* [Fuel Cells (FUEL)][SERV]
+* [Sensor Modules (SENS)][SENS]
+* [Service Modules (SERV)][SERV]
 * Either [^3]
   * [Module Manager /L][mml]
   * [Module Manager][mm]
@@ -151,7 +151,7 @@ How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
 [MOD:attr]: https://zer0kerbal.github.io/FuelCells/Attributions "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/FuelCells/master/changelog.md  "Changelog"
 [MOD:discu]: https://github.com/zer0Kerbal/FuelCells/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/211260-*/ "Sensor Modules Forum Thread"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/211277-*/ "Sensor Modules Forum Thread"
 [MOD:issue]: https://github.com/zer0Kerbal/FuelCells/issues "Issues"
 [MOD:markt]: https://zer0kerbal.github.io/FuelCells/Marketing "Marketing Slicks"
 [MOD:notic]: https://zer0kerbal.github.io/FuelCells/Notices "GitHub Pages"
@@ -209,12 +209,12 @@ How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
 [SOL]: https://forum.kerbalspaceprogram.com/index.php?/topic/192489-*/ "Solar Science (SOL)"
 
 [HBI]: https://forum.kerbalspaceprogram.com/index.php?/topic/208353-*/ "Hot Beverage Inc (HBI)"
-[FUEL]: https://github.com/zer0Kerbal/HBFuelCells "HBFuelCells (FUEL)"
 [HBEx]: https://github.com/zer0Kerbal/IrradiatedParts "Irradiated Parts (HBEx)"
 [KAT]: https://github.com/zer0Kerbal/Kerturn "Kerturn (KAT)"
 [RTG]: https://github.com/zer0Kerbal/HBRTG "Radioisotope Thermoelectric Generators (RTG)"
-[SENS]: https://forum.kerbalspaceprogram.com/index.php?/topic/211260-*/ "Fuel Cells (FUEL)"
-[SERV]: https://forum.kerbalspaceprogram.com/index.php?/topic/211246-*/ "Fuel Cells (FUEL)"
+[FUEL]: https://forum.kerbalspaceprogram.com/index.php?/topic/211260-*/  "Fuel Cells (FUEL)"
+[SENS]: https://forum.kerbalspaceprogram.com/index.php?/topic/211260-*/ "Sensor Modules (SENS)"
+[SERV]: https://forum.kerbalspaceprogram.com/index.php?/topic/211246-*/ "Service Modules (SERV)"
 
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
