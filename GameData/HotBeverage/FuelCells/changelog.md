@@ -20,8 +20,11 @@
 * Last release by Ph34b0t
 * No Changelog provided
 * Changes by zer0Kerbal
-  * split out into three separate part.cfg
-  * adjust nodes (flipped bottom axis)
+  * split out into three seperate part.cfg
+  * change category to Electrical
+  * adjust nodes (flipped bottom axis), size
+  * split out unique resources into <Kerturn.cfg>
+    * replace with LFO  
 
 ### Status 0.2.0.0
 
@@ -43,9 +46,10 @@
 * No Changelog provided
 * Changes by zer0Kerbal
   * split out into three seperate part.cfg
-  * adjust nodes (flipped bottom axis)
+  * change category to Electrical
+  * adjust nodes (flipped bottom axis), size
   * split out unique resources into <Kerturn.cfg>
-  * replace with LFO
+    * replace with LFO
 
 ### Status 0.1.0.0
 
