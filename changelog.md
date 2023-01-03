@@ -7,7 +7,7 @@
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/211277-*/) |
 | github     | (https://github.com/zer0Kerbal/FuelCells)                         |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/FuelCells)            |
-| spacedock  | (https://spacedock.info/mod/3184)                                 |
+| spacedock  | (https://spacedock.info/mod/3185)                                 |
 | ckan       | FuelCells                                                         |
 
 ## Version 0.2.0.0-release `<Archival>` edition
@@ -20,7 +20,7 @@
 * Last release by Ph34b0t
 * No Changelog provided
 * Changes by zer0Kerbal
-  * split out into three seperate part.cfg
+  * split out into three separate part.cfg
   * adjust nodes (flipped bottom axis)
 
 ### Status 0.2.0.0
