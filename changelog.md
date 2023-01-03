@@ -15,9 +15,9 @@
 * Released
   * 09 Oct 2014
   * for Kerbal Space Program 0.25
-  * by Ph34b0t
+  * by Ph34rb0t
 
-* Last release by Ph34b0t
+* Last release by Ph34rb0t
 * No Changelog provided
 * Changes by zer0Kerbal
   * split out into three seperate part.cfg
@@ -39,9 +39,9 @@
 * Released
   * 22 Jul 2014
   * for Kerbal Space Program 0.23.5
-  * by Ph34b0t
+  * by Ph34rb0t
 
-### Creation by Ph34b0t
+### Creation by Ph34rb0t
 
 * No Changelog provided
 * Changes by zer0Kerbal
