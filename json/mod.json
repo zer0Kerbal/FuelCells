@@ -1,8 +1,8 @@
 {
  "schemaVersion": 1,
- "label": "Sensor Modules",
+ "label": "Fuel Cells",
  "labelColor": "BADA55",
- "message": "0.9.99.0",
+ "message": "0.2.0.0",
  "color": "darkgreen",
  "style": "plastic"
 }
