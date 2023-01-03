@@ -44,6 +44,8 @@
 * Changes by zer0Kerbal
   * split out into three seperate part.cfg
   * adjust nodes (flipped bottom axis)
+  * split out unique resources into <Kerturn.cfg>
+  * replace with LFO
 
 ### Status 0.1.0.0
 
