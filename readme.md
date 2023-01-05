@@ -25,6 +25,8 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### See more
 
+>* [Fuel Cell Wiki](https://en.wikipedia.org/wiki/Fuel_cell)
+>* [Hostory Fuel Cell Wiki](https://fuelcellsworks.com/knowledge/history/)
 >* [Marketing Slicks][MOD:markt]
 >* [Parts Catalog][MOD:parts] for part pictures
 >* [GitHub Pages][MOD:pages]
