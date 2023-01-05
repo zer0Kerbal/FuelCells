@@ -3,7 +3,7 @@
 ## Design considerations
 
 * Fuel cells first made their first official appearance during the Gemini/Apollo programs
-* Continued their use for the Shuttle and ISS programs.
+* Continued use in the Shuttle and ISS programs.
 * As technology advanced, the mass of the storage (ec) was cut in half (Pb --> LiFePO4 as example from Apollo to SpaceX)
 * Capacity of storage doubled during the same time
 * Fuel storage containment improvements have also allows more fuel to be stored in the same sized container (not factored in)
