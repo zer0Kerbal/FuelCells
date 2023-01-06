@@ -33,7 +33,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Summary 0.9.99.0
 
-* Adds one new part, in five sizes
+* Adds one new part in five sizes
   * 0.625m, 1.25m, 1.875m, 2.5m and 3.75m
   * each with all the modcons
 * Val had some fun with the last can of Fire Engine Red spray paint and a stencil.
@@ -41,19 +41,17 @@ CC BY-ND 4.0 by zer0Kerbal
 * fully localized (English)
 * nodes adjusted and corrected
 * could certainly use decorative lights and a new coat of paint
-* converted .png --> .dds
+* converted .png --> .dds and added NRM and colormap
 * updated all compatibility patches
-* Compatibility
-  * Kerbal Inventory System
-  * allows searching 'sens' in editors
+* allows searching 'fuel' ir 'hbi' in editors
 
 ### Archival Releases
 
 * 0.2.0.0-release `<Archival>`
 * 0.1.0.0-release `<Archival>`
-* closes #32 - Archival Releases
-* closes #37 - 0.1.0.0-release
-* closes #38 - 0.2.0.0-release
+* closes #7 - Archival Releases
+* closes #12 - 0.1.0.0-release
+* closes #13 - 0.2.0.0-release
 
 ### Part 0.9.99.0
 
@@ -62,10 +60,13 @@ CC BY-ND 4.0 by zer0Kerbal
   * convert from:
     * mesh to MODEL {}
     * .png --> .dds
-      * <model000.png> 778kb --> <sensormd.dds> 1.33mb
+      * <model000.png> 702kb --> <fuelcell.dds> 1.33mb
+  * Add
+    * <fuelcell_NRM.dds> 341kb
+    * <fuelcell_colormap.dds> 341kb
   * rename
     * models to unique names
-      * <SensorMD.mu --> >sensormd.mu>
+      * <model.mu> -- <fuelcell.mu>
     * textures to unique names
   * update
     * model pointers (.png et al to .dds)
@@ -73,15 +74,15 @@ CC BY-ND 4.0 by zer0Kerbal
   * relocate assets to Assets/
   * eliminate duplicates
   * relocate part.cfg to Parts/
-* closes #34 - Part Asset Updates
+* closes #9 - Part Asset Updates
 
 ### Compatibility
 
 * Add
-  * <KerbalInventorySystem.cfg> v1.0.0.0
+  * <OnDemandFuelCells.cfg> v1.3.0.0
 * Update
-  * <TweakScake.cfg> v1.1.1.0
-* closes #35 - Create <FuelCells.cfg>
+  * <TweakScake.cfg> v1.1.0.0
+* closes #10 - Create <FuelCells.cfg>
 
 ### Localization 0.9.99.0
 
@@ -90,10 +91,9 @@ CC BY-ND 4.0 by zer0Kerbal
   * Localization/
     * <readme.md> v2.1.2.0
     * <quickstart.md>  v1.0.1.1
-* updates #2 - Localization - Master
-* closes #3 - English <us-en.cfg>
-* closes #19 - Part Localization
-* closes #33 - Create Localization directory and contents
+* closes #8 - Create Localization directory and contents
+* closes #14 - Localization - Master
+* updates #15 - English <en-us.cfg>
 
 ### Create Legal Mumbo Jumbo 0.9.99.0
 
@@ -116,7 +116,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * CurseForge
   * SpaceDock
   * CKAN
-* closes #36 - Update License
+* closes #11 - Update License
 
 ### Documentation 0.9.99.0
 
@@ -142,25 +142,22 @@ CC BY-ND 4.0 by zer0Kerbal
     * [Disclaimer.md] v1.0.1.0
     * [PartsCatalog.md] v1.1.4.1
     * [Why.md] v1.1.0.0
-* closes #30 - Create GitHub Pages
+* closes #5 - Create GitHub Pages
 
-### Create
+### Create 0.9.99.0
 
 * HeroLogo.png
   * HeroLogo.png
   * copy/convert to HeroLogo.jpg
-* closes #31 - Create HeroLogo.png
+* closes #6 - Create HeroLogo.png
 
 ### Status 0.9.99.0
 
 * Issues
-* closes #26 - Service Modules (SERV) 0.9.99.0-adoption `<Thank you Ph34rb0t>` edition
-* closes #27 - 1.0.99.0 Create Legal Mumbo Jumbo
-* closes #28 - 1.0.99.0 Create Documentation
-* closes #29 - 1.0.99.0 Create Social Media Presence
-* closes #21 - 1.0.0.0 Verify Legal Mumbo Jumbo
-* closes #22 - 1.0.0.0 Update Documentation
-* closes #23 - 1.0.0.0 Social Media
+  * closes #1 - Fuel Cells (FUEL) 0.9.99.0-adoption `<Thank you Ph34rb0t>` edition
+  * closes #2 - 1.1.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 1.1.99.0 Create Documentation
+  * closes #4 - 1.1.99.0 Create Social Media Presence
 
 ---
 
