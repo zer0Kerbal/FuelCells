@@ -1,0 +1,83 @@
+// B9PartSwitch - v 1.7
+// Hot Beverages
+// created: 25 Aug 19
+// updated: 02 Jan 20
+
+// B9_TANK_TYPE:NEEDS[CommunityResourcePack&!NearFutureConstruction]
+// {
+  // name = Argon
+  // tankMass =  0.000594667
+  // tankCost = 2.5
+
+  // RESOURCE
+  // {
+    // name = ArgonGas
+    // unitsPerVolume = 1000
+  // }
+// }
+
+
+@PART:HAS[#manufacturer[Hot*],!MODULE[ModuleB9PartSwitch],@RESOURCE[MonoPropellant]]:NEEDS[B9PartSwitch,HotBeverages,!CryoTanks]:FOR[HotBeverages]
+{
+	refVolume += #$RESOURCE[MonoPropellant]/maxAmount$
+	@refVolume /= 1.5 
+	//refVolume += #$RESOURCE[Oxidizer]/maxAmount$
+	// !RESOURCE[LiquidFuel] {}
+	// !RESOURCE[Oxidizer] {}
+	!RESOURCE[MonoPropellant] {}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = HotBeverageSwitch
+		switcherDescription = Fuel Type
+		switchInFlight = True
+		baseVolume = #$../refVolume$
+		percentFilled = 1
+		affectDragCubes = False
+	}
+}
+
+// Add primary tank types to stock parts.
+@PART:HAS[@MODULE[ModuleB9PartSwitch]]:NEEDS[B9PartSwitch,HotBeverages,!CryoTanks]:FOR[HotBeverages]
+{
+	@description:NEEDS[B9PartSwitch] ^= :$: <color=orange>\nB9 Fuel Switch. </color> :
+	tags = #autoLOC_500648 // array bank charge convert e/c elect energ pack power volt watt
+	!refVolume {}
+
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[HotBeverageSwitch]]
+	{
+		SUBTYPE
+		{
+			name = MP
+			tankType = MonoPropellant
+			title = #FUEL-#LOC_B9PartSwitch_tank_type_m-titl // #LOC_B9PartSwitch_tank_type_m
+			defaultSubtypePriority  = 100
+		}
+		SUBTYPE
+		{
+			name = LF/O
+			tankType = LFO
+			title = #LOC_B9PartSwitch_tank_type_lfo // LFO LF + Ox
+			defaultSubtypePriority  = 80
+		}
+		SUBTYPE
+		{
+			name = LF
+			tankType = #LOC_B9PartSwitch_tank_type_lf // LiquidFuel
+			title = LiquidFuel
+			defaultSubtypePriority  = 70
+		}
+		SUBTYPE:NEEDS[CommunityResourcePack]
+		{
+			name = H/O/w
+			title = Hydrogen+Oxygen+Water
+			tankType = HotBeveragesH2Ow
+			primaryColor = Blue
+			secondaryColor = White
+			defaultSubtypePriority  = 90
+		}
+	}
+}
+
+// zer0Kerbal
+// CC-BY-NC-SA-4.0
