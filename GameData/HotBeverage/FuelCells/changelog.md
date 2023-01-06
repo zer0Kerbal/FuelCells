@@ -80,8 +80,8 @@
     * <readme.md> v2.1.2.0
     * <quickstart.md>  v1.0.1.1
 * closes #8 - Create Localization directory and contents
-* closes #14 - Localization - Master
-* updates #15 - English <en-us.cfg>
+* updates #14 - Localization - Master
+* closes #15 - English <en-us.cfg>
 
 ### Create Legal Mumbo Jumbo 0.9.99.0
 
